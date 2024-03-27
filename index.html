@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Máquina Pascalina</title>
+  </head>
+  <body>
+    <h1>Máquina Pascalina</h1>
+    <input type="text" id="display" disabled /><br />
+    <input type="button" value="1" onclick="addDigit(1)" />
+    <input type="button" value="2" onclick="addDigit(2)" />
+    <input type="button" value="3" onclick="addDigit(3)" />
+    <input type="button" value="4" onclick="addDigit(4)" />
+    <input type="button" value="5" onclick="addDigit(5)" />
+    <input type="button" value="6" onclick="addDigit(6)" />
+    <input type="button" value="7" onclick="addDigit(7)" />
+    <input type="button" value="8" onclick="addDigit(8)" />
+    <input type="button" value="9" onclick="addDigit(9)" />
+    <input type="button" value="0" onclick="addDigit(0)" />
+    <input type="button" value="C" onclick="clearDisplay()" />
+    <input type="button" value="+" onclick="addOperator('+')" />
+    <input type="button" value="-" onclick="addOperator('-')" />
+    <input type="button" value="=" onclick="calculate()" />
+  </body>
+  <script src="./script.js"></script>
+</html>
